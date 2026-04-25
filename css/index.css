@@ -1,0 +1,665 @@
+/*------------------- Start general rules----------------------------*/
+body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: medium;
+  line-height: normal;
+  color: rgb(42, 41, 41);
+}
+
+.hero-content h1 {
+  font-size: 55px;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-content p {
+  color: gray;
+  line-height: 30px;
+}
+
+div.hero-content {
+  margin-bottom: 40px;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  width: 1000px;
+  /* Or any fixed/percentage width */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+div img {
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.il-block {
+  display: inline-block;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.rounded-btn {
+  border-radius: 7px;
+}
+
+.hero-img {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.btn-white {
+  color: white;
+}
+
+.btn1-dimensions {
+  width: 170px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.btn-grey {
+  color: grey;
+}
+
+.btn2-dimensions {
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  border-color: gray;
+  font-weight: bold;
+}
+
+.padding-left-24 {
+  padding-left: 24px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/*------------------- End general rules----------------------------*/
+
+/* -----------------------why choose us--------------------------------*/
+.title h2,
+p {
+  text-align: center;
+}
+
+.bg-powderblue {
+  background-color: powderblue;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.card1 {
+  text-align: center;
+  background-color: rgb(218, 235, 254);
+  color: rgb(16, 25, 41);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.card2 {
+  text-align: center;
+  margin-inline: 20px;
+  background-color: rgb(209, 251, 229);
+  color: rgb(16, 25, 41);
+}
+
+.card3 {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: rgb(243, 232, 255);
+  color: rgb(16, 25, 41);
+  padding-top: 20px;
+  /*margin-left: 40px;*/
+}
+
+.card3 h3 {
+  padding-bottom: 6px;
+}
+
+.placeholder1 {
+  width: 20px;
+  height: 20px;
+  border-color: rgb(21, 92, 253);
+  border-radius: 10px;
+  border-width: 10px;
+  border-style: solid;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.placeholder2 {
+  width: 20px;
+  height: 20px;
+  border-color: rgb(0, 152, 103);
+  background-color: rgb(0, 152, 103);
+  border-radius: 8px;
+  border-width: 8px;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  margin-top: 10px;
+}
+
+.circle-base {
+  border-radius: 50%;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.placeholder3 {
+  width: 20px;
+  height: 20px;
+  border-color: rgb(152, 16, 250);
+  border-radius: 10px;
+  border-width: 10px;
+  border-style: solid;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.benefits-cards {
+  margin-left: 20px;
+}
+
+.n1 p,
+.n2 p,
+.n3 p {
+  text-align: left;
+}
+
+.border-left {
+  border-left: solid black 6px;
+}
+
+.more-content h3 {
+  font-size: 30px;
+}
+
+.more-img {
+  margin-top: 40px;
+}
+
+/* -----------------------------------testominals----------------- */
+.testimonials {
+  padding-bottom: 80px;
+}
+
+.heading h2 {
+  text-align: center;
+}
+
+.w-h-64 {
+  width: 64px;
+  height: 64px;
+}
+
+.rounded-img {
+  border-radius: 50%;
+}
+
+.bg-img1 {
+  background-image: url(../images/avatar-1.jpg);
+  background-size: cover;
+}
+
+.bg-img2 {
+  background-image: url(../images/avatar-2.jpg);
+  background-size: cover;
+}
+
+.bg-img3 {
+  background-image: url(../images/avatar-3.jpg);
+  background-size: cover;
+}
+
+.auther-info {
+  margin-left: 10px;
+  line-height: 5px;
+}
+
+blockquote {
+  text-align: left;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  margin-left: 10px;
+}
+
+.crd1-bg {
+  background-color: rgb(238, 247, 255);
+}
+
+.crd2-bg {
+  background-color: rgb(236, 252, 244);
+}
+
+.crd3-bg {
+  background-color: rgb(250, 245, 255);
+}
+
+.margin-top-60px {
+  margin-top: 60px;
+}
+
+.testimonials-bg {
+  background-color: rgb(248, 251, 251);
+}
+
+.all-stats {
+  margin-left: 10%;
+  background-color: blue;
+}
+
+/*--------------------------stats------------------------------*/
+.stats-bg {
+  background-color: #F0F4F9;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #F0F4F9;
+}
+
+.mt-40px {
+  margin-top: 64px;
+}
+
+.m-il {
+  margin-inline: 20px;
+}
+
+.sub-head {
+  color: #000000;
+  font-size: 36px;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 40px;
+}
+
+.sub-p {
+  color: #4a5565;
+  font-size: 16px;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.stats {
+  height: 170px;
+}
+
+.sub-stats {
+  margin-block: 60px;
+  text-align: center;
+
+}
+
+/*--------------------------stats------------------------------*/
+
+
+
+
+/*--------------------form-----------------------------------*/
+.title h2 {
+  color: #000000;
+  font-size: 36px;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  font-style: normal;
+  line-height: 40px;
+}
+
+.title p {
+  color: #4a5565;
+  font-size: 20px;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+label {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #364153;
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+input {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  border-color: #4a5565;
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  height: 61px;
+}
+
+textarea {
+  border-radius: 10px;
+  width: 100%;
+  height: 100px;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000;
+  resize: none;
+}
+
+select {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000;
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  height: 61px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.btn-form {
+  width: 80%;
+  border-radius: 10px;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #fff;
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  height: 61px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.first-name input {
+  width: 90%;
+}
+
+form {
+  background-color: #F9FAFB;
+}
+
+fieldset {
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgb(248, 251, 251);
+  border-style: none;
+}
+
+.email {
+  margin-top: 24px;
+}
+
+/*--------------------form-----------------------------------*/
+
+
+
+
+/*--------------------footer------------------------------------*/
+.fit-core h3 {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.fit-core p,
+a,
+li,
+ul {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  color: #99a1af;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: left;
+}
+
+.fit-core li,
+.other-links li {
+  display: inline;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.quick-links h4 {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.quick-links a {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  color: #99a1af;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: left;
+}
+
+.contact-info .info-head {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.contact-info .info-point h5 {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.contact-info .info-point p {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  color: #99a1af;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 0;
+}
+
+.foot-bg {
+  background-color: #101828;
+}
+
+.copy-right {
+  border-top: #6a7282 1px solid;
+}
+
+.other-links li,
+.all-rights p#end {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6a7282;
+}
+
+.all-rights li {
+  padding: 10px;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+/*------------------- start tests ----------------------------*/
+.test1 {
+  background-color: aqua;
+}
+
+.test2 {
+  background-color: red;
+}
+
+.test3 {
+  background-color: blue;
+}
+
+.test4 {
+  background-color: green;
+}
+
+.test5 {
+  background-color: yellow;
+}
+
+.tes6 {
+  background-color: purple;
+}
+
+.test7 {
+  background-color: brown;
+}
+
+/*------------------- end tests ----------------------------*/
