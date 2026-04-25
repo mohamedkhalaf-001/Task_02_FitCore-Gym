@@ -53,6 +53,10 @@ div img {
   clear: both;
 }
 
+.w-100{
+  width: 100%;
+}
+
 .w-60 {
   width: 60%;
 }
@@ -344,7 +348,7 @@ blockquote {
   border-color: #F0F4F9;
 }
 
-.mt-40px {
+.mt-64px {
   margin-top: 64px;
 }
 
